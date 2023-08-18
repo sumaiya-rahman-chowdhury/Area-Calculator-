@@ -18,4 +18,14 @@ function calculateTriangleArea(){
 
 function calculateRectangleArea(){
     // console.log("clicked")
+    const widthString = document.getElementById('width').value ;
+    const width = parseFloat(widthString) ;
+
+    const lenghtString = document.getElementById('lenght').value ;
+    const lenght = parseFloat(lenghtString) ;
+
+    const result = lenght*width ;
+    console.log(result);
+    document.getElementById('result-triangle').innerText = result ;
+
 }
