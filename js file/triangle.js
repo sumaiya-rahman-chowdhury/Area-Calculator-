@@ -15,3 +15,7 @@ function calculateTriangleArea(){
     // return base * height * 0.5 ;
     document.getElementById('result-triangle').innerText = base * height * 0.5 ;
 }
+
+function calculateRectangleArea(){
+    // console.log("clicked")
+}
